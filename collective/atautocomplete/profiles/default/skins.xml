@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool" allow_any="False"
+   cookie_persistence="False"
+   request_varname="plone_skin"
+   based-on="Plone Default">
+
+  <object name="collective_atautocomplete"
+          meta_type="Filesystem Directory View"
+          directory="collective.atautocomplete:skins/collective_atautocomplete" />
+
+
+  <skin-path name="*">
+    <layer name="collective_atautocomplete" insert-after="custom" />
+  </skin-path>
+
+</object>
+

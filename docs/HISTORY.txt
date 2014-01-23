@@ -1,0 +1,14 @@
+Changelog
+=========
+
+0.2.schemaextendercompat (unreleased)
+-------------------------------------
+
+- Nothing changed yet.
+
+
+0.1.schemaextendercompat (2013-02-19)
+-------------------------------------
+
+* Initial release
+
